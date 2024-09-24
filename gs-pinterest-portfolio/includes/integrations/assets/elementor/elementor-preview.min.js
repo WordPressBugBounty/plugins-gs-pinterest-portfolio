@@ -1,0 +1,1 @@
+!function(n){var e=function(n,e){n.find(".gs_pin_area").length&&e(document).trigger("gspin:scripts:reprocess")};n(window).on("elementor/frontend/init",(function(){elementorFrontend.hooks.addAction("frontend/element_ready/gs-pinterest.default",e)}))}(jQuery);
