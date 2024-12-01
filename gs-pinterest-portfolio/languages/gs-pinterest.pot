@@ -89,7 +89,7 @@ msgstr ""
 msgid "Tab 1"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/integrations/integration-beaver.php:41, ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:953, ../includes/integrations/integration-beaver.php:41, ../includes/shortcode-builder/builder.php:959
+#: ../build/gs-pinterest-portfolio/includes/integrations/integration-beaver.php:41, ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:959, ../includes/integrations/integration-beaver.php:41, ../includes/shortcode-builder/builder.php:959
 msgid "Shortcode"
 msgstr ""
 
@@ -113,7 +113,7 @@ msgstr ""
 msgid "Edit this shortcode"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/integrations/integration-elementor.php:182, ../build/gs-pinterest-portfolio/includes/integrations/integration-gutenberg.php:44, ../build/gs-pinterest-portfolio/includes/integrations/integration-wpb-vc.php:115, ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:961, ../includes/integrations/integration-elementor.php:182, ../includes/integrations/integration-gutenberg.php:44, ../includes/integrations/integration-wpb-vc.php:115, ../includes/shortcode-builder/builder.php:967
+#: ../build/gs-pinterest-portfolio/includes/integrations/integration-elementor.php:182, ../build/gs-pinterest-portfolio/includes/integrations/integration-gutenberg.php:44, ../build/gs-pinterest-portfolio/includes/integrations/integration-wpb-vc.php:115, ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:967, ../includes/integrations/integration-elementor.php:182, ../includes/integrations/integration-gutenberg.php:44, ../includes/integrations/integration-wpb-vc.php:115, ../includes/shortcode-builder/builder.php:967
 msgid "Edit"
 msgstr ""
 
@@ -291,231 +291,239 @@ msgstr ""
 msgid "Never"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:871, ../includes/shortcode-builder/builder.php:872
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:872, ../includes/shortcode-builder/builder.php:872
 msgid "Preference saved"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:913, ../includes/shortcode-builder/builder.php:917
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:917, ../includes/shortcode-builder/builder.php:917
 msgid "Username"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:914, ../includes/shortcode-builder/builder.php:918
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:918, ../includes/shortcode-builder/builder.php:918
 msgid "Enter Pinterest username"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:915, ../includes/shortcode-builder/builder.php:919
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:919, ../includes/shortcode-builder/builder.php:919
 msgid "Board Name"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:916, ../includes/shortcode-builder/builder.php:920
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:920, ../includes/shortcode-builder/builder.php:920
 msgid "Enter Pinterest Board name for Specific board pins"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:917, ../includes/shortcode-builder/builder.php:921
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:921, ../includes/shortcode-builder/builder.php:921
 msgid "Total Pins to display"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:918, ../includes/shortcode-builder/builder.php:922
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:922, ../includes/shortcode-builder/builder.php:922
 msgid "Set number of pins to display. Default 10, max 25"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:919, ../includes/shortcode-builder/builder.php:923
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:923, ../includes/shortcode-builder/builder.php:923
 msgid "Theme"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:920, ../includes/shortcode-builder/builder.php:924
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:924, ../includes/shortcode-builder/builder.php:924
 msgid "Select preffered styled theme"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:921, ../includes/shortcode-builder/builder.php:925
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:925, ../includes/shortcode-builder/builder.php:925
 msgid "Pins Link Target"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:922, ../includes/shortcode-builder/builder.php:926
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:926, ../includes/shortcode-builder/builder.php:926
 msgid "Specify target to load the Links, Default New Tab"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:923, ../includes/shortcode-builder/builder.php:927
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:927, ../includes/shortcode-builder/builder.php:927
 msgid "Pin Title"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:924, ../includes/shortcode-builder/builder.php:928
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:928, ../includes/shortcode-builder/builder.php:928
 msgid "Show or Hide Pin Title"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:925, ../includes/shortcode-builder/builder.php:929
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:929, ../includes/shortcode-builder/builder.php:929
 msgid "Gutter"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:926, ../includes/shortcode-builder/builder.php:930
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:930, ../includes/shortcode-builder/builder.php:930
 msgid "Set Gutter space in between Pins."
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:927, ../includes/shortcode-builder/builder.php:931
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:931, ../includes/shortcode-builder/builder.php:931
 msgid "Board Width (px)"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:928, ../includes/shortcode-builder/builder.php:932
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:932, ../includes/shortcode-builder/builder.php:932
 msgid "Scale Height (px)"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:929, ../includes/shortcode-builder/builder.php:933
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:933, ../includes/shortcode-builder/builder.php:933
 msgid "Scale Width (px)"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:931, ../includes/shortcode-builder/builder.php:935
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:935, ../includes/shortcode-builder/builder.php:935
 msgid "Custom CSS"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:932, ../includes/shortcode-builder/builder.php:936
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:936, ../includes/shortcode-builder/builder.php:936
 msgid "Preference"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:933, ../includes/shortcode-builder/builder.php:937
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:937, ../includes/shortcode-builder/builder.php:937
 msgid "Sync Interval"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:934, ../includes/shortcode-builder/builder.php:938
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:938, ../includes/shortcode-builder/builder.php:938
 msgid "Select Sync Interval"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:936, ../includes/shortcode-builder/builder.php:940
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:940, ../includes/shortcode-builder/builder.php:940
 msgid "Desktop Columns"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:937, ../includes/shortcode-builder/builder.php:941
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:941, ../includes/shortcode-builder/builder.php:941
 msgid "Enter the columns number for desktop"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:938, ../includes/shortcode-builder/builder.php:942
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:942, ../includes/shortcode-builder/builder.php:942
 msgid "Tablet Columns"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:939, ../includes/shortcode-builder/builder.php:943
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:943, ../includes/shortcode-builder/builder.php:943
 msgid "Enter the columns number for tablet"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:940, ../includes/shortcode-builder/builder.php:944
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:944, ../includes/shortcode-builder/builder.php:944
 msgid "Portrait Mobile Columns"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:941, ../includes/shortcode-builder/builder.php:945
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:945, ../includes/shortcode-builder/builder.php:945
 msgid "Enter the columns number for portrait or large display mobile"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:942, ../includes/shortcode-builder/builder.php:946
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:946, ../includes/shortcode-builder/builder.php:946
 msgid "Mobile Columns"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:943, ../includes/shortcode-builder/builder.php:947
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:947, ../includes/shortcode-builder/builder.php:947
 msgid "Enter the columns number for mobile"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:945, ../includes/shortcode-builder/builder.php:951
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:949, ../includes/shortcode-builder/builder.php:949
+msgid "Hide Repin Button"
+msgstr ""
+
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:950, ../includes/shortcode-builder/builder.php:950
+msgid "Hide Repin Button for Pins"
+msgstr ""
+
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:951, ../includes/shortcode-builder/builder.php:951
 msgid "Disable Lazy Load"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:946, ../includes/shortcode-builder/builder.php:952
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:952, ../includes/shortcode-builder/builder.php:952
 msgid "Disable Lazy Load for Pins"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:947, ../includes/shortcode-builder/builder.php:953
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:953, ../includes/shortcode-builder/builder.php:953
 msgid "Lazy Load Class"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:948, ../includes/shortcode-builder/builder.php:954
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:954, ../includes/shortcode-builder/builder.php:954
 msgid "Add class to disable Lazy Loading, multiple classes should be separated by space"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:949, ../includes/shortcode-builder/builder.php:955
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:955, ../includes/shortcode-builder/builder.php:955
 msgid "Save Preference"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:950, ../includes/shortcode-builder/builder.php:956
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:956, ../includes/shortcode-builder/builder.php:956
 msgid "Sync Pinterest Data"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:951, ../includes/shortcode-builder/builder.php:957
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:957, ../includes/shortcode-builder/builder.php:957
 msgid "SYNC DATA NOW"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:952, ../build/gs-pinterest-portfolio/includes/shortcode-builder/page.php:14, ../includes/shortcode-builder/builder.php:958, ../includes/shortcode-builder/page.php:14
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:958, ../build/gs-pinterest-portfolio/includes/shortcode-builder/page.php:14, ../includes/shortcode-builder/builder.php:958, ../includes/shortcode-builder/page.php:14
 msgid "Shortcodes"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:954, ../includes/shortcode-builder/builder.php:960
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:960, ../includes/shortcode-builder/builder.php:960
 msgid "Global settings which are going to work on the whole plugin."
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:955, ../includes/shortcode-builder/builder.php:961
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:961, ../includes/shortcode-builder/builder.php:961
 msgid "All shortcodes"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:956, ../includes/shortcode-builder/builder.php:962
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:962, ../includes/shortcode-builder/builder.php:962
 msgid "Create Shortcode"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:957, ../includes/shortcode-builder/builder.php:963
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:963, ../includes/shortcode-builder/builder.php:963
 msgid "Create New Shortcode"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:958, ../includes/shortcode-builder/builder.php:964
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:964, ../includes/shortcode-builder/builder.php:964
 msgid "Name"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:959, ../includes/shortcode-builder/builder.php:965
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:965, ../includes/shortcode-builder/builder.php:965
 msgid "Action"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:960, ../includes/shortcode-builder/builder.php:966
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:966, ../includes/shortcode-builder/builder.php:966
 msgid "Actions"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:962, ../includes/shortcode-builder/builder.php:968
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:968, ../includes/shortcode-builder/builder.php:968
 msgid "Clone"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:963, ../includes/shortcode-builder/builder.php:969
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:969, ../includes/shortcode-builder/builder.php:969
 msgid "Delete"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:964, ../includes/shortcode-builder/builder.php:970
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:970, ../includes/shortcode-builder/builder.php:970
 msgid "Delete All"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:965, ../includes/shortcode-builder/builder.php:971
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:971, ../includes/shortcode-builder/builder.php:971
 msgid "Create a new shortcode & save it to use globally in anywhere"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:966, ../includes/shortcode-builder/builder.php:972
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:972, ../includes/shortcode-builder/builder.php:972
 msgid "Edit Shortcode"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:967, ../includes/shortcode-builder/builder.php:973
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:973, ../includes/shortcode-builder/builder.php:973
 msgid "General Settings"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:968, ../includes/shortcode-builder/builder.php:974
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:974, ../includes/shortcode-builder/builder.php:974
 msgid "Style Settings"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:969, ../includes/shortcode-builder/builder.php:975
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:975, ../includes/shortcode-builder/builder.php:975
 msgid "Query Settings"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:970, ../includes/shortcode-builder/builder.php:976
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:976, ../includes/shortcode-builder/builder.php:976
 msgid "Name of the Shortcode"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:971, ../includes/shortcode-builder/builder.php:977
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:977, ../includes/shortcode-builder/builder.php:977
 msgid "Save Shortcode"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:972, ../includes/shortcode-builder/builder.php:978
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:978, ../includes/shortcode-builder/builder.php:978
 msgid "Preview Shortcode"
 msgstr ""
 
-#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:1011, ../includes/shortcode-builder/builder.php:1017
+#: ../build/gs-pinterest-portfolio/includes/shortcode-builder/builder.php:1017, ../includes/shortcode-builder/builder.php:1017
 msgid "Shortcode Preview"
 msgstr ""
 
@@ -657,12 +665,4 @@ msgstr ""
 
 #: ../build/gs-pinterest-portfolio/includes/integrations/beaver/beaver-widget-pin.php:14, ../includes/integrations/beaver/beaver-widget-pin.php:14
 msgid "Basic"
-msgstr ""
-
-#: ../includes/shortcode-builder/builder.php:949
-msgid "Hide Repin Button"
-msgstr ""
-
-#: ../includes/shortcode-builder/builder.php:950
-msgid "Hide Repin Button for Pins"
 msgstr ""

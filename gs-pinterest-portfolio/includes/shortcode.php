@@ -193,12 +193,13 @@ class Shortcode {
 			'repin_button' => 'on'
 		], $atts );
 
-		$pin_width = $this->getPinWidth( $atts['pin_width'] );
+		$width     = intval( $atts['pin_width'] );
+		$pin_width = $this->getPinWidth(  $width  );
 
 		$output = sprintf( '<div class="gs-pin-widget-area%s%s" style="%s"><a data-pin-do="embedPin" data-pin-width="%s" href="%s"></a></div>',
 			wp_is_mobile() ? ' gs-pin--mobile' : '',
 			sanitize_key( $atts['auto_play'] ) === 'on' ? ' gs-pin--autoplay' : '',
-			is_numeric( $atts['pin_width'] ) ? 'min-width:160px;max-width:' . absint( $atts['pin_width'] ) . 'px;' : '',
+			is_numeric( $width ) ? 'min-width:160px;max-width:' . absint( $width ) . 'px;' : '',
 			sanitize_text_field( $pin_width ),
 			sanitize_url( $atts['pin_link'] )
 		);

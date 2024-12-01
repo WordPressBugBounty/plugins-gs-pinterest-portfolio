@@ -3,9 +3,9 @@ Contributors: gsplugins, itszaman, samdani
 Donate link: https://www.paypal.com/donate/?hosted_button_id=K7K8YF4U3SCNQ
 Tags: pinterest plugin, wordpress pinterest plugin, wordpress pinterest, pinterest plugin wordpress, pinterest
 Requires at least: 4.3
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 5.6
-Stable tag: 1.8.8
+Stable tag: 1.8.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -307,6 +307,9 @@ At present, you can display up to 50 pins from a single Pinterest board using Pi
 8. Frontend view of 4 different - GS Pinterest Portfolio Widgets
 
 == Changelog ==
+= Version 1.8.9 [1st Dec 2024] =
+* [Fixed]: Security Issue.
+
 = Version 1.8.8 [21st Aug 2024] =
 * [Added]: Option for Hide Repin Button. 
 * [Added]: Numeric Support For Single Pin Width.
@@ -527,6 +530,9 @@ At present, you can display up to 50 pins from a single Pinterest board using Pi
 * Initial release
 
 == Upgrade notice ==
+= Version 1.8.9 [1st Dec 2024] =
+* [Fixed]: Security Issue.
+
 = Version 1.8.8 [21st Aug 2024] =
 * [Added]: Option for Hide Repin Button. 
 * [Added]: Numeric Support For Single Pin Width.
