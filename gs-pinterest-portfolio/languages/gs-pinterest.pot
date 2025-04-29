@@ -1,4 +1,4 @@
-# Copyright (C) 2024 gs_pinterest
+# Copyright (C) 2025 gs_pinterest
 # This file is distributed under the same license as the gs_pinterest package.
 msgid ""
 msgstr ""
