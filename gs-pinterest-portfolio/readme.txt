@@ -1,4 +1,4 @@
-=== WordPress Pinterest Plugin - Make a Popup, User Profile, Masonry and Gallery Layout ===
+=== GS Pinterest Portfolio – Pins Grid, Masonry, User Profile, Popup & Board Widgets ===
 Contributors: gsplugins, itszaman, samdani
 Donate link: https://www.paypal.com/donate/?hosted_button_id=K7K8YF4U3SCNQ
 Tags: pinterest plugin, wordpress pinterest plugin, wordpress pinterest, pinterest plugin wordpress, pinterest
@@ -9,7 +9,7 @@ Stable tag: 1.9.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The Best Pinterest Plugin for WordPress that Showcases Pinterest profiles boards and pins on your website.
+Showcase Pinterest pins in Grid, Masonry, Popup & Gallery layouts with GS Pinterest Portfolio. Responsive, lightweight & easy to use.
 
 == Description ==
 
