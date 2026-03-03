@@ -79,8 +79,12 @@ function appsero_init_tracker_gs_pinterest_portfolio() {
     $client->insights()->init();
 }
 
-if( !defined( 'GSPIN_PRO_VERSION' ) ) {
-	appsero_init_tracker_gs_pinterest_portfolio();
+// if( !defined( 'GSPIN_PRO_VERSION' ) ) {
+// 	appsero_init_tracker_gs_pinterest_portfolio();
+// }
+
+if ( ! defined( 'GSPIN_PRO_VERSION' ) ) {
+    add_action( 'init', 'GSPIN\\appsero_init_tracker_gs_pinterest_portfolio' );
 }
 
 function clear_schedule_event( $current, $updated = null ) {

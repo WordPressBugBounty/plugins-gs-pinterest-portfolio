@@ -12,7 +12,7 @@ class Hooks {
     public function __construct() {
         add_action( 'admin_init', array( $this, 'activation_redirect' ) );
         add_action( 'in_admin_header',  [ $this, 'remove_pinterest_admin_notices' ], PHP_INT_MAX );
-        add_action( 'init', [ $this, 'gs_pin_i18n' ] );
+        // add_action( 'init', [ $this, 'gs_pin_i18n' ] );
         add_action( 'init', [ $this, 'action_links' ] );
     }
 

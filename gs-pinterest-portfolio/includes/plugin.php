@@ -61,7 +61,8 @@ final class Plugin {
         $this->db             = new Database;
 
         new Hooks();
-        
+
+        require_once GSPIN_PLUGIN_DIR . 'includes/widgets/widgets.php';
         require_once GSPIN_PLUGIN_DIR . 'includes/asset-generator/gs-load-asset-generator.php';        
         require_once GSPIN_PLUGIN_DIR . 'includes/gs-common-pages/gs-pinterest-common-pages.php';
         
