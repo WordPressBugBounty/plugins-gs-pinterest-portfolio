@@ -3,9 +3,9 @@ Contributors: gsplugins, itszaman, samdani
 Donate link: https://www.paypal.com/donate/?hosted_button_id=K7K8YF4U3SCNQ
 Tags: pinterest plugin, wordpress pinterest plugin, wordpress pinterest, pinterest plugin wordpress, pinterest
 Requires at least: 4.3
-Tested up to: 6.9
+Tested up to: 7.1
 Requires PHP: 5.6
-Stable tag: 1.9.1
+Stable tag: 1.9.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -128,51 +128,39 @@ Crafted and Developed with Passion by [GS Plugins](https://www.gsplugins.com/)
 * 📚 [Documentation](https://docs.gsplugins.com/gs-pinterest-portfolio/)
 
 
-### 🔥 You may like other plugins from [GS Plugins](https://www.gsplugins.com)
+### 🔥 More Essential Plugins You Want To Get From [GS Plugins](https://www.gsplugins.com/)
 
-**[Testimonial Slider](https://wordpress.org/plugins/gs-testimonial)** - Testimonials slider displays rotating customer endorsements and recommendations, helping to build trust and credibility for a business or product.
+**⭐ [Solid Testimonials](https://wordpress.org/plugins/gs-testimonial/)** - Showcase client reviews, recommendations, and quotes creatively across pages and widgets for maximum impact.
 
-**[Logo Slider](https://wordpress.org/plugins/gs-logo-slider)** - Logo slider displays rotating logos of partners, clients, or sponsors, showcasing a business's relationships and endorsements.
+**↔️ [Logo Slider](https://wordpress.org/plugins/gs-logo-slider/)** - Quick & easily manageable logo slideshow plugin to display partner, client, brand & sponsor's Logos in appealing views.
 
-**[Portfolio](https://wordpress.org/plugins/gs-portfolio/)** - Filterable Portfolio plugin for WordPress allows you to easily display and showcase your projects, highlighting your skills and abilities.
+**💼 [Filterable Portfolio](https://wordpress.org/plugins/gs-portfolio/)** - Showcase your work with clean, responsive layouts, including Grid, Slider, Filter, Masonry, and Popup.
 
-**[Team Members](https://wordpress.org/plugins/gs-team-members)** - Build a Stunning Team Page or Section and Show off Your Team's Talents!
+**👥 [Team Members](https://wordpress.org/plugins/gs-team-members/)** - Create attractive team sections highlighting members, roles, expertise, and professional strengths.
 
-**[Projects](https://wordpress.org/plugins/gs-projects)** - Projects showcase displays detailed information including client reviews, ratings, galleries, and videos for a business's work.
+**🎁 [Project Showcase](https://wordpress.org/plugins/gs-projects/)** - Display projects as a portfolio with complete details, including URL, client reviews & ratings, gallery & videos.
 
-**[Books Showcase](https://wordpress.org/plugins/gs-books-showcase)** - Books showcase displays detailed information including author, published date, reviews, ratings, and gallery, allowing users to easily find and explore books.
+**📚 [Books Showcase](https://wordpress.org/plugins/gs-books-showcase/)** - Display books with authors, dates, reviews, ratings, galleries, and helpful details with 35+ designs.
 
-**[Coaches](https://wordpress.org/plugins/gs-coach)** - Coaches plugin displays coaches' experience, skills, reviews, ratings, and certifications, helping users find the right coach for their needs.
+**👨‍🏫 [Coaches](https://wordpress.org/plugins/gs-coach/)** - Showcase coaches' skills, experience, certifications, reviews, ratings, and professional expertise clearly.
 
-**[Posts Grid](https://wordpress.org/plugins/posts-grid)** -  WordPress Posts Grid plugin displays the latest posts in an elegant grid format, allowing for easy navigation and quick access to new content on a website.
-
-**[Posts Widget](https://wordpress.org/plugins/posts-widget)** -  WordPress Posts Widget plugin displays the latest posts in an elegant format on the sidebar or any widget area, allowing for easy navigation and quick access to new content on a website.
+**⊞ [Posts Grid](https://wordpress.org/plugins/posts-grid/)** - Display recent WordPress posts in elegant 50+ styles for faster browsing and seamless navigation.
 
 ### 🎯 WooCommerce Plugins
 
-**[WooCommerce Products Slider](https://wordpress.org/plugins/gs-woocommerce-products-slider)** - WooCommerce Product Slider plugin displays products in a visually pleasing, sliding manner, making it easy for customers to browse and find the products they want on an online store.
+**🛒 [WooCommerce Products Slider](https://wordpress.org/plugins/gs-woocommerce-products-slider/)** - Display WooCommerce products in smooth sliders, helping shoppers browse items more easily.
 
-**[WooCommerce Variation Swatches](https://wordpress.org/plugins/gs-woo-variation-swatches)** - WooCommerce Variation Swatches plugin replaces the default dropdown fields for variable products with visually appealing swatches, making it easier for customers to select product options and improve the overall shopping experience.
+**🛍️ [WooCommerce Variation Swatches](https://wordpress.org/plugins/gs-woo-variation-swatches/)** - Replace product dropdowns with attractive swatches for easier and faster variation selection.
 
-**[WooCommerce Brands](https://wordpress.org/plugins/gs-woo-brands)** - WooCommerce Brands taxonomy plugin allows for easy cataloging of products by adding a brand taxonomy, making it simple to organize and filter products on an online store.
+**💎 [WooCommerce Brands](https://wordpress.org/plugins/gs-woo-brands/)** - Add brand taxonomy for organizing, displaying, and filtering WooCommerce products efficiently.
 
 ### 📣 Social Plugins
 
-**[Dribbble Portfolio](https://wordpress.org/plugins/gs-dribbble-portfolio)** - Dribbble Portfolio WP plugin enables you to display your Dribbble shots on your website in a portfolio layout, allowing you to showcase your design work to a wider audience.
-
-**[Behance Portfolio](https://wordpress.org/plugins/gs-behance-portfolio)** - Behance Portfolio WordPress plugin allows you to display your Behance projects on your website in a visually appealing layout, making it easy for your audience to view and appreciate your work.
-
-**[Instagram Portfolio](https://wordpress.org/plugins/gs-instagram-portfolio/)** - Instagram plugin for WordPress allows you to display your Instagram posts on your website, making it easy for visitors to view and interact with your content and also to increase engagement on your website.
-
-**[Portfolio - Envato](https://wordpress.org/plugins/gs-envato-portfolio)** - Envato Portfolio Plugin allows you to display your Themeforest and Codecanyon items on your website, showcasing your digital products and making them easily accessible for potential customers.
-
-**[Youtube Gallery](https://wordpress.org/plugins/gs-youtube-gallery)** - YouTube Gallery plugin allows you to display videos from a YouTube channel or playlist on your website, creating a visually appealing gallery and making it easy for visitors to access and watch your videos.
+**▶️ [YouTube Gallery](https://wordpress.org/plugins/gs-youtube-gallery/)** - Feature YouTube channel or playlist videos in attractive galleries for easier visitor viewing.
 
 ### 🏆 Branding Plugin
 
-**[Custom Login](https://wordpress.org/plugins/gs-custom-login)** - GS Custom Login allows you to customize the WordPress login screen, providing an easy way to create a unique and visually appealing login experience for your website users.
-
-**[PowerUp](https://wordpress.org/plugins/powerup)** - Enhance Your WordPress Experience with the Ultimate Security & Convenience Solution - Hide Admin Bar, Login & Logout Redirection, Disable Comments & Restrict WP-Admin Module.
+**⚡ [PowerUp](https://wordpress.org/plugins/powerup/)** - Improve WordPress security and convenience with redirects, restrictions, admin controls and many more.
 
 == Installation ==
 
@@ -295,16 +283,22 @@ Yes, it’s responsive and works across viewports of various sizes.
 At present, you can display up to 50 pins from a single Pinterest board using Pinterest API v3. We are working on upgrading to API v5, which may increase the pin display limit. Stay tuned for upcoming updates.
 
 == Screenshots ==
-1. GS Pinterest Portfolio With Theme One – Pins
-2. GS Pinterest Portfolio With Theme Two – Pin with Links
-3. GS Pinterest Portfolio With Theme Three – Hover
-4. GS Pinterest Portfolio With Theme Four – Popup
-5. GS Pinterest Portfolio With Theme Five – Greyscale
-6. GS Pinterest Shortcode Generator
-7. GS Pinterest Portfolio Widget - Four Different Widgets available
-8. Frontend view of 4 different - GS Pinterest Portfolio Widgets
+1. Theme Pins With 5 Columns: GS Pinterest Portfolio
+2. Theme Links – With Full Width: GS Pinterest Portfolio
+3. Theme Board: GS Pinterest Portfolio
+4. Theme Board in Sidebar: GS Pinterest Portfolio
+5. Theme Hover: GS Pinterest Portfolio
+6. Theme Popup: GS Pinterest Portfolio
+7. Greyscale View: GS Pinterest Portfolio
+8. User Profile Theme: GS Pinterest Portfolio
+9. Profile Widget: GS Pinterest Portfolio
+10. Shortcode With Preview: GS Pinterest Portfolio
 
 == Changelog ==
+= Version 1.9.2 [25th Aug 2026] =
+* [Improved]: Pin fetching to support more than 50 pins when no specific board is selected.
+* [Improved]: Sync description layout and readability in the admin area.
+
 = Version 1.9.1 [3rd Mar 2026] =
 * [Fixed]: Load Text Domain Issue.
 * [Fixed]: Notice on Shortcode Preview.
@@ -535,6 +529,10 @@ At present, you can display up to 50 pins from a single Pinterest board using Pi
 * Initial release
 
 == Upgrade Notice ==
+= Version 1.9.2 [25th Aug 2026] =
+* [Improved]: Pin fetching to support more than 50 pins when no specific board is selected.
+* [Improved]: Sync description layout and readability in the admin area.
+
 = Version 1.9.1 [3rd Mar 2026] =
 * [Fixed]: Load Text Domain Issue.
 * [Fixed]: Notice on Shortcode Preview.
