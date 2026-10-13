@@ -5,7 +5,7 @@ Tags: pinterest plugin, wordpress pinterest plugin, wordpress pinterest, pintere
 Requires at least: 4.3
 Tested up to: 7.1
 Requires PHP: 5.6
-Stable tag: 1.9.2
+Stable tag: 1.9.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -295,6 +295,9 @@ At present, you can display up to 50 pins from a single Pinterest board using Pi
 10. Shortcode With Preview: GS Pinterest Portfolio
 
 == Changelog ==
+= Version 1.9.3 [13th Oct 2026] =
+* [Fixed]: PHP object injection vulnerability in asset cache post meta.
+
 = Version 1.9.2 [25th Aug 2026] =
 * [Improved]: Pin fetching to support more than 50 pins when no specific board is selected.
 * [Improved]: Sync description layout and readability in the admin area.
@@ -529,6 +532,9 @@ At present, you can display up to 50 pins from a single Pinterest board using Pi
 * Initial release
 
 == Upgrade Notice ==
+= Version 1.9.3 [13th Oct 2026] =
+* [Fixed]: PHP object injection vulnerability in asset cache post meta.
+
 = Version 1.9.2 [25th Aug 2026] =
 * [Improved]: Pin fetching to support more than 50 pins when no specific board is selected.
 * [Improved]: Sync description layout and readability in the admin area.
