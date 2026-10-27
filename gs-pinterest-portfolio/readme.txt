@@ -5,7 +5,7 @@ Tags: pinterest plugin, wordpress pinterest plugin, wordpress pinterest, pintere
 Requires at least: 4.3
 Tested up to: 7.1
 Requires PHP: 5.6
-Stable tag: 1.9.3
+Stable tag: 1.9.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,7 +17,7 @@ The **GS Pinterest Portfolio** Plugin is a versatile WordPress plugin designed t
 
 The plugin is user-friendly, offering a convenient Shortcode generator for embedding. Its responsive design ensures that your Pinterest portfolio looks great on all devices, while the lightweight build keeps your site running efficiently. Focus on what matters with the *GS Pinterest Portfolio* Plugin, and improve your website's visual appeal effortlessly.
 
-🎬 [Live Demo](https://pinterest.gsplugins.com/) ⬆️ [Upgrade to PRO](https://www.gsplugins.com/product/gs-pinterest-portfolio/) 📚 [Documentation](https://docs.gsplugins.com/gs-pinterest-portfolio/) 🙋‍♂️ [Support](https://www.gsplugins.com/contact/)
+🎬 [Live Demo](https://pinterest.gsplugins.com/) ⬆️ [Upgrade to PRO](https://www.gsplugins.com/product/gs-pinterest-portfolio/pricing/?utm_source=wordpress.org&utm_medium=readme&utm_campaign=gs-pinterest-portfolio) 📚 [Documentation](https://docs.gsplugins.com/gs-pinterest-portfolio/) 🙋‍♂️ [Support](https://www.gsplugins.com/contact/)
 
 ### Benefits of Using the GS Pinterest Portfolio Plugin
 The *GS Pinterest Portfolio Plugin* helps you easily integrate and display Pinterest pins on your WordPress site, enriching your content with visual elements. It attracts and engages visitors by showcasing your work, interests, or inspirations. User-friendly features, like a Shortcode generator, makes it simple to use, and its responsive design ensures your pins look great on any device.
@@ -58,7 +58,7 @@ The *GS Pinterest Portfolio Plugin* helps you easily integrate and display Pinte
 * **Dashboard Updates**: Update directly from your WordPress dashboard.
 * **Comprehensive Support**: Access well-documented guides and support.
 * 🎬 [View live Demos &raquo;](https://pinterest.gsplugins.com/)
-* ⬆️ [Upgrade to PRO &raquo;](https://www.gsplugins.com/product/gs-pinterest-portfolio/)
+* ⬆️ [Upgrade to PRO &raquo;](https://www.gsplugins.com/product/gs-pinterest-portfolio/pricing/?utm_source=wordpress.org&utm_medium=readme&utm_campaign=gs-pinterest-portfolio)
 
 ### General Settings
 Go to **GS Pinterest > GS Pinterest**. Here, you can either create a new Shortcode or edit the existing ones. Once inside, you’ll see the **General Settings** tab.
@@ -295,6 +295,9 @@ At present, you can display up to 50 pins from a single Pinterest board using Pi
 10. Shortcode With Preview: GS Pinterest Portfolio
 
 == Changelog ==
+= Version 1.9.4 [27th Oct 2026] =
+* [Fixed]: Broken pricing links.
+
 = Version 1.9.3 [13th Oct 2026] =
 * [Fixed]: PHP object injection vulnerability in asset cache post meta.
 
@@ -532,6 +535,9 @@ At present, you can display up to 50 pins from a single Pinterest board using Pi
 * Initial release
 
 == Upgrade Notice ==
+= Version 1.9.4 [27th Oct 2026] =
+* [Fixed]: Broken pricing links.
+
 = Version 1.9.3 [13th Oct 2026] =
 * [Fixed]: PHP object injection vulnerability in asset cache post meta.
 

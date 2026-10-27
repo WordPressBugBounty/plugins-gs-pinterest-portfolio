@@ -127,3 +127,25 @@ function gs_is_pro_active() {
     require_once ABSPATH . 'wp-admin/includes/plugin.php';
     return is_plugin_active( 'gs-pinterest-portfolio-pro/gs_pinterest_portfolio.php' );
 }
+
+if ( ! function_exists( __NAMESPACE__ . '\pricing_url' ) ) {
+	/**
+	 * Pricing page URL with UTM tags. Every "Go Pro" / upgrade link uses this,
+	 * so the URL lives in one place and Google Analytics shows which placement sold.
+	 *
+	 * @param string $medium Where the link appears, e.g. 'plugin-action-link'.
+	 * @return string
+	 */
+	function pricing_url( $medium = 'plugin' ) {
+		$url = add_query_arg(
+			array(
+				'utm_source'   => 'plugin',
+				'utm_medium'   => sanitize_key( $medium ),
+				'utm_campaign' => 'gs-pinterest-portfolio',
+			),
+			'https://www.gsplugins.com/product/gs-pinterest-portfolio/pricing/'
+		);
+
+		return apply_filters( 'gs_pinterest_pricing_url', $url, $medium );
+	}
+}

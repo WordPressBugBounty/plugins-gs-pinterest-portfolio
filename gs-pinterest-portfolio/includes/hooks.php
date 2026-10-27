@@ -70,8 +70,8 @@ class Hooks {
      * @since 2.0.8
      */
     public function gs_pinterest_pro_link( $gsPin_links ) {
-        $gsPin_links[] = '<a class="gs-pro-link" href="https://www.gsplugins.com/product/gs-pinterest-portfolio" target="_blank">Go Pro!</a>';
-        $gsPin_links[] = '<a href="https://www.gsplugins.com/wordpress-plugins" target="_blank">GS Plugins</a>';
+        $gsPin_links[] = '<a class="gs-pro-link" href="' . esc_url( pricing_url( 'plugin-action-link' ) ) . '" target="_blank">Go Pro!</a>';
+        $gsPin_links[] = '<a href="https://www.gsplugins.com/wordpress-plugins/" target="_blank">GS Plugins</a>';
         return $gsPin_links;
     }
 }

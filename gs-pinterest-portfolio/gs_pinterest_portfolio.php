@@ -12,7 +12,7 @@
  * Plugin Name:			GS Pinterest Portfolio Lite
  * Plugin URI:			https://www.gsplugins.com/product/gs-pinterest-portfolio/
  * Description:       	Responsive Pinterest plugin for WordPress to showcase your Pinterest Pins in a clean, modern layout. Display your pins anywhere on your site using shortcodes like [gs_pinterest id=1] or via widgets. Check <a href="https://pinterest.gsplugins.com/">GS Pinterest Porfolio Demo</a> and <a href="https://docs.gsplugins.com/gs-pinterest-portfolio/">Documentation</a>.
- * Version:           	1.9.3
+ * Version:           	1.9.4
  * Author:       		GS Plugins
  * Author URI:       	https://www.gsplugins.com/
  * Text Domain:       	gs-pinterest
@@ -26,7 +26,7 @@ defined('ABSPATH') || exit;
 /**
  * Defining constants
  */
-define( 'GSPIN_VERSION', '1.9.3' );
+define( 'GSPIN_VERSION', '1.9.4' );
 define( 'GSPIN_MENU_POSITION', 31 );
 define( 'GSPIN_PLUGIN_FILE', __FILE__ );
 define( 'GSPIN_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );

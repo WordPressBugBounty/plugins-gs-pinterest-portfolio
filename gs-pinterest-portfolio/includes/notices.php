@@ -17,9 +17,9 @@ class Notices {
      * @since 2.0.8
      */
     public function __construct() {
-        add_action( 'admin_init', array( $this, 'review_notice' ) );
+        // add_action( 'admin_init', array( $this, 'review_notice' ) ); // Review notice turned off.
         if ( ! defined( 'GSPIN_PRO_VERSION' ) ) {
-            add_action( 'admin_notices', array( $this, 'admin_notice' ) );
+            // add_action( 'admin_notices', array( $this, 'admin_notice' ) ); // Coupon notice turned off.
         }
         add_action( 'admin_init', array( $this, 'nag_ignore' ) );
         add_filter( 'plugin_row_meta', array( $this, 'row_meta' ), 10, 2 );
