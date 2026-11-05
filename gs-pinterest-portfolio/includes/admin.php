@@ -30,7 +30,7 @@ class Admin {
             'manage_options',
             'gsp-pinterest-main',
             array( $this, 'view' ),
-            GSPIN_PLUGIN_URI . '/assets/img/icon.svg',
+            GSPIN_PLUGIN_URI . '/assets/img/gs-pinterest-portfolio.png',
             GSPIN_MENU_POSITION
         );
     }

@@ -6,7 +6,9 @@
 					<div class="gs-roow">
 						<div class="logo-area gs-col-xs-6">
 							<router-link to="/">
-								<img src="<?php echo GSPIN_PLUGIN_URI . '/assets/img/icon.svg'; ?>" alt="GS Pinterest Logo">
+								<img src="<?php echo GSPIN_PLUGIN_URI . '/assets/img/gs-pinterest-portfolio.png'; ?>" alt="">
+								<span><?php _e( 'GS Pinterest Portfolio', 'gs-pinterest' ); ?></span>
+								<small>v<?php echo esc_html( GSPIN_VERSION ); ?></small>
 							</router-link>
 						</div>
 						<div class="menu-area gs-col-xs-6 text-right">

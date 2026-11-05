@@ -95,6 +95,7 @@ class PinProfile extends \WP_Widget {
 			<input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'custom_board_width' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'custom_board_width' ) ); ?>" type="number" value="<?php echo esc_attr( $custom_board_width ); ?>" placeholder="min : 130" />
 		</p>
 		<?php
+		plugin()->widgets->display_prompt();
 	}
 
 	/**

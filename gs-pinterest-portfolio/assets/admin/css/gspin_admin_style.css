@@ -54,3 +54,28 @@ a.gs-pro-link {
 	color: red;
 	font-weight: bold;
 }
+
+.gspin-widget-prompt {
+	position: relative;
+	margin: 1em 0;
+	padding: 10px 28px 12px 12px;
+	background: #f6f7f7;
+	border-left: 4px solid #5E6BE5;
+}
+
+.gspin-widget-prompt p {
+	margin: 0 0 8px;
+}
+
+.gspin-widget-prompt--dismiss {
+	position: absolute;
+	top: 4px;
+	right: 6px;
+	padding: 0;
+	font-size: 18px;
+	line-height: 1;
+	color: #646970;
+	background: none;
+	border: 0;
+	cursor: pointer;
+}

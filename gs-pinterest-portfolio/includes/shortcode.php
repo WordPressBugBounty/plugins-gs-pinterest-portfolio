@@ -90,7 +90,10 @@ class Shortcode {
 		}
 
 		if (empty($username)) {
-			return esc_attr__('Pinterest username is invalid or empty', 'gs-pinterest');
+			// Returns before the regular assets load, and works without them on Pro too.
+			wp_enqueue_style( 'gs-pinterest-notice', GSPIN_PLUGIN_URI . '/assets/css/gs-pin-notice.css', [], GSPIN_VERSION );
+
+			return '<div class="gspin-notice">' . esc_html__('Pinterest username is invalid or empty', 'gs-pinterest') . '</div>';
 		}
 
 		if ('gs_pin_theme6' !== $theme) {

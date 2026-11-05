@@ -151,7 +151,7 @@ class Builder {
             'userid'                  => '',
             'board_name'              => '',
             'count'                   => 20,
-            'show_pin_title'          => false,
+            'show_pin_title'          => true,
             'theme'                   => 'gs_pin_theme1',
             'link_target'             => '_blank',
             'columns'                 => '4',
@@ -611,13 +611,58 @@ class Builder {
         );
 
         if ( ! plugin()->helpers->is_pro_active() ) {
-            $proThemes = array_map( function( $item ) {
-                $item['pro'] = true;
+            $prompts = $this->get_theme_prompts();
+
+            $proThemes = array_map( function( $item ) use ( $prompts ) {
+                $item['pro']    = true;
+                $item['prompt'] = $prompts[ $item['value'] ];
                 return $item;
             }, $proThemes );
         }
 
         return array_merge( $freeThemes, $proThemes );
+    }
+
+    /**
+     * Returns the upgrade prompt of each Pro theme, shown when a free user selects it.
+     * 
+     * @since  1.9.5
+     * @return array Prompts keyed by theme value.
+     */
+    public function get_theme_prompts() {
+        $prompts = array(
+            'gs_pin_theme2' => [
+                'title'  => __( 'Pin Links theme is part of Pro.', 'gs-pinterest' ),
+                'text'   => __( 'Add a link to every pin, so your pins send visitors where you want them.', 'gs-pinterest' ),
+                'button' => __( 'Unlock Pin Links theme', 'gs-pinterest' )
+            ],
+            'gs_pin_theme3' => [
+                'title'  => __( 'Hover theme is part of Pro.', 'gs-pinterest' ),
+                'text'   => __( 'Show pin details only when visitors hover, for a cleaner grid.', 'gs-pinterest' ),
+                'button' => __( 'Unlock Hover theme', 'gs-pinterest' )
+            ],
+            'gs_pin_theme4' => [
+                'title'  => __( 'Popup theme is part of Pro.', 'gs-pinterest' ),
+                'text'   => __( 'Let visitors open pins in a lightbox on your site instead of leaving for Pinterest.', 'gs-pinterest' ),
+                'button' => __( 'Unlock Popup theme', 'gs-pinterest' )
+            ],
+            'gs_pin_theme5' => [
+                'title'  => __( 'Grayscale theme is part of Pro.', 'gs-pinterest' ),
+                'text'   => __( 'Show pins in black and white that turn to color on hover, to match a minimal design.', 'gs-pinterest' ),
+                'button' => __( 'Unlock Grayscale theme', 'gs-pinterest' )
+            ],
+            'gs_pin_theme6' => [
+                'title'  => __( 'User Profile theme is part of Pro.', 'gs-pinterest' ),
+                'text'   => __( 'Show your Pinterest profile header above your pins.', 'gs-pinterest' ),
+                'button' => __( 'Unlock User Profile theme', 'gs-pinterest' )
+            ]
+        );
+
+        return array_map( function( $prompt ) {
+            $prompt['url']         = pricing_url( 'theme-select' );
+            $prompt['preview_url'] = pricing_url( 'builder-preview' );
+            return $prompt;
+        }, $prompts );
     }
 
     /**
@@ -915,51 +960,60 @@ class Builder {
     public function get_strings() {
         return [
             'user-id'                      => __( 'Username', 'gs-pinterest' ),
-            'user-id--help'                => __( 'Enter Pinterest username', 'gs-pinterest' ),
+            'user-id--help'                => __( 'Your Pinterest username, the part after pinterest.com/ in your profile link.', 'gs-pinterest' ),
             'board-name'                   => __( 'Board Name', 'gs-pinterest' ),
-            'board-name--help'             => __( 'Enter Pinterest Board name for Specific board pins', 'gs-pinterest' ),
-            'count'                        => __( 'Total Pins to display', 'gs-pinterest' ),
-            'count--help'                  => __( 'Set number of pins to display. Default 10, max 25', 'gs-pinterest' ),
+            'board-name--help'             => __( 'Show pins from one board. Use the board name from its link, such as my-board. Leave empty to show pins from the whole profile. Required for Theme (Board).', 'gs-pinterest' ),
+            'count'                        => __( 'Number of Pins', 'gs-pinterest' ),
+            'count--help'                  => __( 'How many pins to show. The default is 20, and up to 250 can be loaded.', 'gs-pinterest' ),
             'theme'                        => __( 'Theme', 'gs-pinterest' ),
-            'theme--help'                  => __( 'Select preffered styled theme', 'gs-pinterest' ),
+            'theme--help'                  => __( 'Choose how your pins are displayed. Themes marked PRO need GS Pinterest Portfolio Pro.', 'gs-pinterest' ),
             'link-target'                  => __( 'Pins Link Target', 'gs-pinterest' ),
-            'link-target--help'            => __( 'Specify target to load the Links, Default New Tab', 'gs-pinterest' ),
+            'link-target--help'            => __( 'Choose whether pin links open in a new tab or the same window. Works with Pro themes.', 'gs-pinterest' ),
             'pin-title'                    => __( 'Pin Title', 'gs-pinterest' ),
-            'pin-title--help'              => __( 'Show or Hide Pin Title', 'gs-pinterest' ),
+            'pin-title--help'              => __( 'Show the title of each pin. Works with Pro themes.', 'gs-pinterest' ),
             'gutter'                       => __( 'Gutter', 'gs-pinterest' ),
-            'gutter--help'                 => __( 'Set Gutter space in between Pins.', 'gs-pinterest' ),
+            'gutter--help'                 => __( 'Space between pins in pixels. The default is 10.', 'gs-pinterest' ),
             'board_width'                  => __( 'Board Width (px)', 'gs-pinterest' ),
+            'board_width--help'            => __( 'Width of the board in pixels, 130 or more. Leave empty to fit the available space.', 'gs-pinterest' ),
             'pin_height'                   => __( 'Scale Height (px)', 'gs-pinterest' ),
+            'pin_height--help'             => __( 'Height of the board in pixels, 60 or more.', 'gs-pinterest' ),
             'pin_width'                    => __( 'Scale Width (px)', 'gs-pinterest' ),
+            'pin_width--help'              => __( 'Width of each pin image in the board in pixels, 60 or more.', 'gs-pinterest' ),
 
             'custom-css'                    => __('Custom CSS', 'gs-pinterest'),
+            'custom-css--help'              => __('Add your own CSS to change how the plugin looks on your site.', 'gs-pinterest'),
             'preference'                    => __('Preference', 'gs-pinterest'),
             'sync_interval'                 => __( 'Sync Interval', 'gs-pinterest' ),
-            'sync_interval--help'           => __( 'Select Sync Interval', 'gs-pinterest' ),
+            'sync_interval--help'           => __( 'How often pins update automatically from Pinterest. Choose Never to update them only from the Tools page.', 'gs-pinterest' ),
             // responsive labels 
             'columns'                       => __('Desktop Columns', 'gs-pinterest'),
-            'columns--help'                 => __('Enter the columns number for desktop', 'gs-pinterest'),
+            'columns--help'                 => __('How many pins to show per row on desktop screens.', 'gs-pinterest'),
             'columns-tablet'                => __('Tablet Columns', 'gs-pinterest'),
-            'columns-tablet--help'          => __('Enter the columns number for tablet', 'gs-pinterest'),
+            'columns-tablet--help'          => __('How many pins to show per row on tablets.', 'gs-pinterest'),
             'columns-mobile-portrait'       => __('Portrait Mobile Columns', 'gs-pinterest'),
-            'columns-mobile-portrait--help' => __('Enter the columns number for portrait or large display mobile', 'gs-pinterest'),
+            'columns-mobile-portrait--help' => __('How many pins to show per row on large phones held upright.', 'gs-pinterest'),
             'columns-mobile'                => __('Mobile Columns', 'gs-pinterest'),
-            'columns-mobile--help'          => __('Enter the columns number for mobile', 'gs-pinterest'),
+            'columns-mobile--help'          => __('How many pins to show per row on small phones.', 'gs-pinterest'),
 
             'hide-repin-button'             => __('Hide Repin Button', 'gs-pinterest'),
-            'hide-repin-button--help'       => __('Hide Repin Button for Pins', 'gs-pinterest'),
+            'hide-repin-button--help'       => __('Hide the Pinterest Save button on pins shown in widgets.', 'gs-pinterest'),
             'disable-lazy-load'             => __('Disable Lazy Load', 'gs-pinterest'),
-            'disable-lazy-load--help'       => __('Disable Lazy Load for Pins', 'gs-pinterest'),
+            'disable-lazy-load--help'       => __('Stop lazy load plugins from delaying your pin images.', 'gs-pinterest'),
             'lazy-load-class'               => __('Lazy Load Class', 'gs-pinterest'),
-            'lazy-load-class--help'         => __('Add class to disable Lazy Loading, multiple classes should be separated by space', 'gs-pinterest'),
+            'lazy-load-class--help'         => __('CSS class added to pin images so your lazy load plugin skips them. Separate multiple classes with spaces.', 'gs-pinterest'),
             'save-preference'               => __('Save Preference', 'gs-pinterest'),
             'sync-data'                     => __( 'Sync Pinterest Data', 'gs-pinterest' ),
             'sync-data-button'              => __( 'SYNC DATA NOW', 'gs-pinterest' ),
+            'sync-data-text'                => __( 'Get the latest pins for all your shortcodes right away. Use this if new pins are not showing or images are missing.', 'gs-pinterest' ),
+            'sync-data-hint'                => __( 'Want to change how often pins sync automatically?', 'gs-pinterest' ),
+            'sync-data-preferences'         => __( 'Open Preferences', 'gs-pinterest' ),
+            'sync-data-syncing'             => __( 'Syncing...', 'gs-pinterest' ),
+            'sync-data-failed'              => __( 'Sync failed. Please try again.', 'gs-pinterest' ),
             'shortcodes'                    => __('Shortcodes', 'gs-pinterest'),
             'shortcode'                     => __('Shortcode', 'gs-pinterest'),
+            'shortcode--help'               => __('Copy this shortcode and paste it into any page, post or widget to show your pins.', 'gs-pinterest'),
             'global-settings-label'         => __('Global settings which are going to work on the whole plugin.', 'gs-pinterest'),
             'all-shortcodes'                => __('All shortcodes', 'gs-pinterest'),
-            'create-shortcode'              => __('Create Shortcode', 'gs-pinterest'),
             'create-new-shortcode'          => __('Create New Shortcode', 'gs-pinterest'),
             'name'                          => __('Name', 'gs-pinterest'),
             'action'                        => __('Action', 'gs-pinterest'),
@@ -968,14 +1022,17 @@ class Builder {
             'clone'                         => __('Clone', 'gs-pinterest'),
             'delete'                        => __('Delete', 'gs-pinterest'),
             'delete-all'                    => __('Delete All', 'gs-pinterest'),
-            'create-a-new-shortcode-and'    => __('Create a new shortcode & save it to use globally in anywhere', 'gs-pinterest'),
-            'edit-shortcode'                => __('Edit Shortcode', 'gs-pinterest'),
             'general-settings'              => __('General Settings', 'gs-pinterest'),
             'style-settings'                => __('Style Settings', 'gs-pinterest'),
             'query-settings'                => __('Query Settings', 'gs-pinterest'),
-            'name-of-the-shortcode'         => __('Name of the Shortcode', 'gs-pinterest'),
+            'shortcode-name'                => __('Shortcode Name', 'gs-pinterest'),
+            'shortcode-name--help'          => __('A name to help you find this shortcode in your list. It is not shown on your site.', 'gs-pinterest'),
             'save-shortcode'                => __('Save Shortcode', 'gs-pinterest'),
-            'preview-shortcode'             => __('Preview Shortcode', 'gs-pinterest')
+            'preview-shortcode'             => __('Preview Shortcode', 'gs-pinterest'),
+            'pro-preview-text'              => __('Preview only. Save this theme with GS Pinterest Portfolio Pro: Popup, Hover, Pin Links, Grayscale and User Profile themes. Plans from $49/year, 7-day refund.', 'gs-pinterest'),
+            'pro-preview-layout'            => __('Your pins are shown in the default layout below.', 'gs-pinterest'),
+            'pro-preview-button'            => __('See Pro plans', 'gs-pinterest'),
+            'pro-save-blocked'              => __('This theme can only be saved with Pro. Choose a free theme to save this shortcode.', 'gs-pinterest')
         ];
     }
 

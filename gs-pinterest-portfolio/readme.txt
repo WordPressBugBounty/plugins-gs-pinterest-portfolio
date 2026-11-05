@@ -5,7 +5,7 @@ Tags: pinterest, pinterest feed, pinterest board, pinterest widget, pins
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.9.4
+Stable tag: 1.9.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -165,6 +165,20 @@ The free version gives you the pins and board themes, 4 widgets, video pins and 
 10. Shortcode builder with live preview.
 
 == Changelog ==
+
+= Version 1.9.5 [4th Nov 2026] =
+* [Added]: Plugin version in the admin header.
+* [Added]: Pro theme preview and upgrade prompts in the Shortcode Builder.
+* [Added]: Upgrade prompt on the Widgets screen.
+* [Improved]: Admin panel layout on phones and tablets.
+* [Improved]: Shortcode Builder layout and help notes, with clearer help text.
+* [Improved]: Tools page design for syncing Pinterest data.
+* [Improved]: Invalid or empty username notice design.
+* [Updated]: Renamed "Total Pins to display" to "Number of Pins".
+* [Updated]: Pin Title option now shows only when Pro is active, as it works with Pro themes.
+* [Updated]: Admin menu icon.
+* [Fixed]: Dropdown values not displaying properly on Firefox.
+* [Fixed]: Sync Data now shows a message when syncing fails.
 
 = Version 1.9.4 [27th Oct 2026] =
 * [Fixed]: Broken pricing links.
@@ -406,6 +420,9 @@ The free version gives you the pins and board themes, 4 widgets, video pins and 
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.9.5 =
+Improves the admin panel on phones and tablets, and fixes dropdown values on Firefox.
 
 = 1.9.4 =
 Fixes broken pricing links. Version 1.9.3 also fixed a PHP object injection vulnerability, so please update.
